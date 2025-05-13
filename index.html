@@ -5,12 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>StopWatch</title>
 		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="font-6/css/all.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+		/>
 		<script defer src="script.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			<i class="fa-solid fa-stopwatch watch"></i>
+			<span class="material-symbols-outlined"> timer </span>
 			<div class="wrapper">
 				<div class="box">
 					<p id="timer"></p>
@@ -18,13 +21,16 @@
 			</div>
 			<div class="btn">
 				<button class="green" id="green">
-					<i class="fa-regular fa-circle-play"></i>Start
+					<span class="material-symbols-outlined"> play_circle </span
+					><span>Start</span>
 				</button>
 				<button class="yellow" id="yellow">
-					<i class="fa-regular fa-circle-pause"></i>Pause
+					<span class="material-symbols-outlined"> pause_circle </span
+					><span>Pause</span>
 				</button>
 				<button class="red" id="red">
-					<i class="fa-regular fa-circle-stop"></i>Stop
+					<span class="material-symbols-outlined"> stop_circle </span
+					><span>Stop</span>
 				</button>
 			</div>
 		</div>
